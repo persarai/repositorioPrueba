@@ -1,0 +1,31 @@
+.text-justify {
+    text-align: justify;
+}
+body {
+    background-color:#51B6B6;
+}
+
+.container,
+.container-fluid,
+.row,
+.card {
+    min-height: 10px; /* Ajusta la altura según lo que necesites */
+}
+
+.card {
+    position: relative;
+}
+
+.card a.btn {
+    position: absolute;
+    bottom: 100px;
+    left: 260px;
+    transform: translateX(-10%)
+    
+}
+
+.card-img-top {
+    width: 180px; 
+    height: 180px; 
+    
+}

@@ -1,0 +1,87 @@
+/* Estilo para justificar el texto dentro del elemento con clase "horizontal-text" */
+.horizontal-text {
+    display: flex;
+  }
+  
+  .card-body.horizontal-text {
+    text-align: justify;
+  }
+  
+  /* Estilo para centrar el contenedor de la carta horizontalmente */
+  .centered {
+    margin: 0 auto;
+    max-width: 900px; /* Asegura que el contenedor no exceda cierto ancho */
+  }
+  
+  /* Ajustar la imagen a como se apetezca --------------------------*/
+.image-container {
+    float: right;
+    margin-left: 30px; 
+  }
+
+  /* Mover la imagen 20px hacia abajo */
+.image-container {
+    margin-top: 20px;
+  }
+/* Centrar la imagen horizontalmente */
+.image-container {
+    display: flex;
+    justify-content: center;
+  }
+    
+/* -------------------------------------------------------------- *\
+
+/* Ajustar el texto hacia arriba */
+.text-container {
+    margin-top: -20px;
+  }
+  
+  /* Ajustar el texto hacia abajo */
+  .text-container {
+    margin-top: 10px;
+  }
+
+  /* Ajustar el texto hacia la izquierda */
+.text-container {
+    display: inline-block;
+    margin-right: 20px;
+  }
+  
+  /* Ajustar el texto hacia la derecha */
+  .text-container {
+    display: inline-block;
+    margin-left: 20px;
+  }
+
+  /* Ajustar el tamaño de la tarjeta */
+.card {
+    max-width: 10000px; /* Cambia el valor para ajustar el ancho de la tarjeta */
+    margin: 0 auto; /* Centrar la tarjeta horizontalmente */
+    padding: 30px; /* Espacio interno opcional para el contenido */
+  }
+
+/* Hacer que la imagen sea un círculo completo */
+.circular-image {
+    border-radius: 50%;
+    /* Asegúrate de que la imagen sea cuadrada (misma altura y ancho) */
+    width: 150px; /* Cambia el valor para ajustar el tamaño del círculo */
+    height: 150px; /* Cambia el valor para ajustar el tamaño del círculo */
+    object-fit: cover; /* Hace que la imagen ocupe todo el círculo */
+    /* Agregar un borde negro al círculo */
+    border: 1px solid black; /* Cambia el grosor del borde según tus preferencias */
+    box-sizing: border-box; /* El borde se ajustará dentro del área de la imagen */
+  }
+
+  /* Estilo para el botón "Solicitar Cita" */
+.btn-solicitar {
+    background-color: #FCBF18; /* Cambia el color del fondo al amarillo dorado */
+    border: 1px solid #000;
+    color: #fff; /* Cambia el color del texto a blanco */
+  }
+  
+  /* Estilo para el botón "Más Información" */
+  .btn-mas-info {
+    background-color: #FCBF18; /* Cambia el color del fondo al amarillo dorado */
+    border: 1px solid #000;
+    color: #fff; /* Cambia el color del texto a blanco */
+  }

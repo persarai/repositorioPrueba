@@ -1,0 +1,75 @@
+/* Universales */
+.text-justify{
+    text-align: justify;
+}
+
+.text-center{
+    text-align: center;
+    align-items: center;
+}
+
+.Subtema{
+    color: #FCBF18 !important;
+}
+
+.link{
+    text-decoration: none !important;
+    color: black;
+}
+
+a:hover{
+    color: #cf9e17 !important;
+}
+
+
+
+/* Menu */
+body{
+    background: #006378;
+}
+
+
+/* Index */
+.custom-btn-u{
+    background:#1D8196 !important;
+    color: white !important;
+    border-color:#1D8196 !important;
+}
+
+/* Presentacion */
+.txt-Present{
+    color: white;
+}
+
+
+/* Nav */
+.navbar{
+    background: #FCBF18 !important;
+    color: black !important;
+}
+
+.btn.btn-outline-success {
+    background-color: #006378 !important;
+    color: white !important;
+}
+
+/* Footer */
+.custom-footer{
+    background-color: black !important;
+    color: white !important;
+}
+
+.custom-foot-title{
+    color: #FCBF18;
+    text-decoration: none;
+}
+
+.foot-custom{
+    color: white !important;
+    text-decoration: none;
+}
+
+i{
+    font-size: 25px;
+    color: white;
+}
